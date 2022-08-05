@@ -6,34 +6,34 @@
 # and nothing else, no characters before, no characters after
 # Start of linguist script
 # HTML (HyperText Markup Language) document
-*.htm linguist-detectable=true
+*.htm linguist-detectable=false
 *.htm linguist-documentation=false
 *.htm linguist-language=HTML
-*.html linguist-detectable=true
+*.html linguist-detectable=false
 *.html linguist-documentation=false
 *.html linguist-language=HTML
-*.mhtm linguist-detectable=true
+*.mhtm linguist-detectable=false
 *.mhtm linguist-documentation=false
 *.mhtm linguist-language=HTML
-*.mhtml linguist-detectable=true
+*.mhtml linguist-detectable=false
 *.mhtml linguist-documentation=false
 *.mhtml linguist-language=HTML
-*.xhtm linguist-detectable=true
+*.xhtm linguist-detectable=false
 *.xhtm linguist-documentation=false
 *.xhtm linguist-language=HTML
-*.xhtml linguist-detectable=true
+*.xhtml linguist-detectable=false
 *.xhtml linguist-documentation=false
 *.xhtml linguist-language=HTML
 # HTA (HTML Application) file
-*.hta linguist-detectable=true
+*.hta linguist-detectable=false
 *.hta linguist-documentation=false
 *.hta linguist-language=HTML
 # CSS (Cascade Styling Sheets) stylesheet file
-*.css linguist-detectable=true
+*.css linguist-detectable=false
 *.css linguist-documentation=false
 *.css linguist-language=CSS
 # Less stylesheet file
-*.less linguist-detectable=true
+*.less linguist-detectable=false
 *.less linguist-documentation=false
 *.less linguist-language=Less
 # JSON (JavaScript Object Notation) source file
@@ -41,11 +41,11 @@
 *.json linguist-documentation=false
 *.json linguist-language=JSON
 # WebVTT subtitle file
-*.vtt linguist-detectable=true
+*.vtt linguist-detectable=false
 *.vtt linguist-documentation=false
 *.vtt linguist-language=WebVTT
 # SubRip subtitle file
-*.srt linguist-detectable=true
+*.srt linguist-detectable=false
 *.srt linguist-documentation=false
 *.srt linguist-language=SubRip-Text
 # YAML (YAML Ain't Markup Language) document
@@ -58,16 +58,16 @@
 *.yaml linguist-language=YAML
 # Markdown
 # Do not include, as it would become the 100% dominant language and would hide all the other languages as "other"
-*.md linguist-detectable=false
+*.md linguist-detectable=true
 *.md linguist-documentation=false
 *.md linguist-language=Markdown
-*.mkd linguist-detectable=false
+*.mkd linguist-detectable=true
 *.mkd linguist-documentation=false
 *.mkd linguist-language=Markdown
-*.mdown linguist-detectable=false
+*.mdown linguist-detectable=true
 *.mdown linguist-documentation=false
 *.mdown linguist-language=Markdown
-*.markdown linguist-detectable=false
+*.markdown linguist-detectable=true
 *.markdown linguist-documentation=false
 *.markdown linguist-language=Markdown
 # Makefile (GNU Make)
@@ -165,6 +165,6 @@
 
 # File info
 # File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
+# File version: 5 (2022, Friday, August 5th at 4:36 pm PST)
 # Line count (including blank lines and compiler line): 171
 # End of script
