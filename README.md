@@ -7,25 +7,72 @@ On 2022, August 4th, I spent over 2 hours trying to edit a clip down from 1 minu
 
 The next day, I compiled this list to demonstrate the pros and cons of the current top 11 online video editors.
 
-| Rank | Service name | Contains watermarks | Supports Firefox | Does not support Firefox | Supports MKV | Requires an online account | Requires a subscription | GIF export | Violates WebCompat | Exports in MP4 | 
-|---|---|---|---|---|---|---|---|---|---|---|
-| 01 | [Online-video-trimmer](https://online-video-cutter.com/) | False | True | False | True | False | False | False | False | True |
-| 02 | [WeVideo](https://www.wevideo.com/) | Yes ($1.00 to remove) | True | False | Unknown | True | For 720p and higher | True | False | True |
-| 03 | [Clideo](https://clideo.com/video-editor/) | True | True | False | True | False | For original quality video, 720p or higher | False | False | True |
-| 04 | [FastReel](https://www.fastreel.com/) | Yes ($1.00 to remove) | True | False | Unknown | Yes (to export) | Subscription required for 720p and higher| False| False | False | True | 
-| 05 | [Kapwing](https://www.kapwing.com/video-editor/) | True | True | False | True | False | To export in 1080p and to remove watermarks | False | False | True | True | False | False |
-| 06 | [MovAVI](https://www.movavi.com/videoeditor/) | True | True | False | False | False | True | False | False | True |
-| 07 | [Frixier](https://editor.flixier.com/home/) | True ($8.00/yearly or $14.00/monthly to remove | Partially | Encourages Chrome | True | False | True (for watermark removal) | False | Yes | True |
-| 08 | [Biteable](https://biteable.com/) | False | True | True | True | Yes | To export video, a subscription is required | False | False | True |
-| 09 | [Pixiko](https://pixiko.com/) | False | True | True | Yes | An online account is required | A subscription is required to export video | False | False | True |
-| 10 | [Kizoa](https://kizoa.com/) | Yes | Partially | False | Unknown | True | For 1080p and higher | False | True | True |
-| 11 | [ClipChamp](https://clipchamp.com/en/unsupported-browser/) | Unknown | False | True | Unknown | Yes | Unknown | False | True | True |
+<details open><summary><p lang="en"><b>Click/tap here to expand/collapse this table</b></p></summary>
+
+| Emoji | Legend | Description |
+|---|---|---|
+| 🥇️ | Awesome (rank 1) | Does everything it is designed to do correctly and really well |
+| 🥈️ | Epic (rank 2) | Does everything it is designed to do correctly on average |
+| 🥉️ | Meh (rank 3) | Doesn't do what it is designed to do very well |
+| 💩️ | Bad (rank 4 and below) | Not user friendly and restricts usage |
+| 🦊️ | Firefox support | Supports the Firefox browser, and doesn't try to hinder support |
+| 🔥️ | Anti-Firefox | Tries to get you to stop using Firefox, hinders support |
+| ⛓️ | Anti-user | Restricts you to not be able to use Firefox and other browsers, only allowing 1 browser. Also applies if DRM is in use. |
+| 💸️ | Subscription required | Tries to get you to buy a subscription to perform certain tasks |
+| 🔒️ | Account required | Requires an online account with the site for some purposes |
+| ♒️ | Watermark | Adds a watermark to the video and requires you to pay money to remove it |
+| ✂️ | Trimming | Supports video trimming |
+| 🎬️ | Full-fledged | Supports full-fledged video editing (as in players like KDenLive, Windows Movie Maker, etc. |
+| ☢️ | DRM | Contains Digital Restrictive Measures (DRM) to limit your digital freedoms. Avoid at all costs! See also: ⛓️ anti-user |
+| ❓️ | Unknown | The site wasn't accessible for testing |
+
+</details>
+
+<details open><summary><p lang="en"><b>Click/tap here to expand/collapse this table</b></p></summary>
+
+| Rank | Service name | Contains watermarks | Supports Firefox | Does not support Firefox | Supports MKV | Requires an online account | Requires a subscription | GIF export | Violates WebCompat | Exports in MP4 | Supports MP4 | Exports in MKV | Supports WMV | Exports in WMV | Supports MOV | Exports in MOV | Supports WebM | Exports in WebM | Supports AVI | Exports in AVI | Supports 3GP | Exports in 3GP |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 01 🥇️🦊️✂️ | [Online-video-trimmer](https://online-video-cutter.com/) | False | True | False | True | False | False | False | False | True | Unknown | Unknown | Unknown | Unknown| Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+| 02 🥈️♒️🔒️✂️💸️ | [WeVideo](https://www.wevideo.com/) | True ($1.00 to remove) | True | False | Unknown | True | For 720p and higher | True | False | True | Unknown | Unknown | Unknown | Unknown| Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+| 03 🥈️🦊️♒️✂️💸️ | [Clideo](https://clideo.com/video-editor/) | True (a minimum $9 monthly subscription is required to remove) | True | False | True | False | For original quality video, 720p or higher | False | False | True | Unknown | Unknown | Unknown | Unknown| Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+| 04 🥉️🦊️♒️✂️💸️ | [FastReel](https://www.fastreel.com/) | True ($1.00 to remove) | True | False | Unknown | True (to export) | Subscription required for 720p and higher| False| False | False | True | Unknown | Unknown | Unknown | Unknown| Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+| 05 🥈️🦊️♒️🔒️💸️✂️ | [Kapwing](https://www.kapwing.com/video-editor/) | True | True | False | True | False | To export in 1080p and to remove watermarks | False | False | True | True | False | False | Unknown | Unknown | Unknown | Unknown| Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+| 06 🥉️🦊️♒️✂️🎬️ | [MovAVI](https://www.movavi.com/videoeditor/) | True | True | False | False | False | True | False | False | True | Unknown | Unknown | Unknown | Unknown| Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+| 07 🥉️🔥️💸️♒️✂️🔒️🎬️ | [Frixier](https://editor.flixier.com/home/) | True ($8.00/yearly or $14.00/monthly to remove | Partially | Encourages Chrome | True | False | True (for watermark removal) | False | True | True | Unknown | Unknown | Unknown | Unknown| Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+| 08 🥈️♒️🔒️💸️✂️ | [Biteable](https://biteable.com/) | False | True | True | True | True | To export video, a subscription is required | False | False | True | Unknown | Unknown | Unknown | Unknown| Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+| 09 🥉️🔒️♒️💸️✂️ | [Pixiko](https://pixiko.com/) | False | True | True | True | An online account is required | A subscription is required to export video | False | False | True | Unknown | Unknown | Unknown | Unknown| Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+| 10 🥉️🔥️💸️♒️🔒️✂️ | [Kizoa](https://kizoa.com/) | True | Partially | False | Unknown | True | For 1080p and higher | False | True | True | Unknown | Unknown | Unknown | Unknown| Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+| 11 💩️⛓️❓️🔥️ | [ClipChamp](https://clipchamp.com/en/unsupported-browser/) | Unknown | False | True | Unknown | True | Unknown | False | True | True | Unknown | Unknown | Unknown | Unknown| Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+
+</details>
+
+**Separate version without Emojis:**
+
+<details open><summary><p lang="en"><b>Click/tap here to expand/collapse this table</b></p></summary>
+
+| Rank | Service name | Contains watermarks | Supports Firefox | Does not support Firefox | Supports MKV | Requires an online account | Requires a subscription | GIF export | Violates WebCompat | Exports in MP4 | Supports MP4 | Exports in MKV | Supports WMV | Exports in WMV | Supports MOV | Exports in MOV | Supports WebM | Exports in WebM | Supports AVI | Exports in AVI | Supports 3GP | Exports in 3GP |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 01 | [Online-video-trimmer](https://online-video-cutter.com/) | False | True | False | True | False | False | False | False | True | Unknown | Unknown | Unknown | Unknown| Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+| 02 | [WeVideo](https://www.wevideo.com/) | True ($1.00 to remove) | True | False | Unknown | True | For 720p and higher | True | False | True | Unknown | Unknown | Unknown | Unknown| Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+| 03 | [Clideo](https://clideo.com/video-editor/) | True (a minimum $9 monthly subscription is required to remove) | True | False | True | False | For original quality video, 720p or higher | False | False | True | Unknown | Unknown | Unknown | Unknown| Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+| 04 | [FastReel](https://www.fastreel.com/) | True ($1.00 to remove) | True | False | Unknown | True (to export) | Subscription required for 720p and higher| False| False | False | True | Unknown | Unknown | Unknown | Unknown| Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+| 05 | [Kapwing](https://www.kapwing.com/video-editor/) | True | True | False | True | False | To export in 1080p and to remove watermarks | False | False | True | True | False | False | Unknown | Unknown | Unknown | Unknown| Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+| 06 | [MovAVI](https://www.movavi.com/videoeditor/) | True | True | False | False | False | True | False | False | True | Unknown | Unknown | Unknown | Unknown| Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+| 07 | [Frixier](https://editor.flixier.com/home/) | True ($8.00/yearly or $14.00/monthly to remove | Partially | Encourages Chrome | True | False | True (for watermark removal) | False | True | True | Unknown | Unknown | Unknown | Unknown| Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+| 08 | [Biteable](https://biteable.com/) | False | True | True | True | True | To export video, a subscription is required | False | False | True | Unknown | Unknown | Unknown | Unknown| Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+| 09 | [Pixiko](https://pixiko.com/) | False | True | True | True | An online account is required | A subscription is required to export video | False | False | True | Unknown | Unknown | Unknown | Unknown| Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+| 10 | [Kizoa](https://kizoa.com/) | True | Partially | False | Unknown | True | For 1080p and higher | False | True | True | Unknown | Unknown | Unknown | Unknown| Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+| 11 | [ClipChamp](https://clipchamp.com/en/unsupported-browser/) | Unknown | False | True | Unknown | True | Unknown | False | True | True | Unknown | Unknown | Unknown | Unknown| Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+
+</details>
 
 **Personal opinion:** [Online-video-trimmer](https://online-video-cutter.com/) and any other site that does exactly what it does should be all there is on the front page of results, and not be on page 2. I feel that entries ranked 2-11 should be on page 2 or 3, or even further down.
 
 ***
 
 ## Notes
+
+<details open><summary><p lang="en"><b>Click/tap here to expand/collapse this section</b></p></summary>
 
 [Online-video-editor](https://online-video-cutter.com/)
 
@@ -39,7 +86,7 @@ The next day, I compiled this list to demonstrate the pros and cons of the curre
 [Biteable](https://biteable.com/)
 
 - Costs money to export video
-- Requires online account
+- Requires an online account
 
 [Pixiko](https://pixiko.com/)*
 
@@ -51,6 +98,7 @@ The next day, I compiled this list to demonstrate the pros and cons of the curre
 [Clipchamp](https://clipchamp.com/en/unsupported-browser/)
 
 - Does not support Firefox at all, a major WebCompat violation
+- Only supports Google Chrome
 
 [Clideo](https://clideo.com/video-editor/)
 
@@ -136,6 +184,8 @@ _Didn't go very far on day 1, but since I am trialing all of these, I went ahead
 - Supports MKV
 - Contains watermarks, costs $8.00/year or $14.00/month to remove
 
+</details>
+
 ***
 
 ### File info
@@ -144,9 +194,9 @@ _Didn't go very far on day 1, but since I am trialing all of these, I went ahead
 
 **File type:** `Markdown (*.md *.mkd *.mdown *.markdown)`
 
-**File version:** `2 (2022, Friday, August 5th at 6:39 pm PST)`
+**File version:** `3 (2022, Wednesday, August 10th at 11:03 pm PST)`
 
-**Line count (including blank lines and compiler line):** `203`
+**Line count (including blank lines and compiler line):** `270`
 
 **Current article language:** `English (EN_USA)` / `Markdown (CommonMark)` / `HTML5 (HyperText Markup Language 5.3)`
 
@@ -194,6 +244,23 @@ _Note that on 2022, Sunday, March 13th at 2:00 am PST, the time jumped ahead 1 h
 - [x] Updated the `file info` section
 - [x] Updated the `file history` section
 - [ ] No other changes in version 2
+
+</details>
+
+<details><summary><p lang="en"><b>Version 3 (2022, Wednesday, August 10th at 11:03 pm PST)</b></p></summary>
+
+**This version was made by:** [`@seanpm2001`](https://github.com/seanpm2001/)
+
+> Changes:
+
+- [x] Updated the file
+- [x] Updated the `main table` with support for a ton of new parameters and ranking
+- [x] Added a new ranking system with an associated legend
+- [x] Added a separate table without Emojis
+- [x] Updated the `notes` section
+- [x] Updated the `file info` section
+- [x] Updated the `file history` section
+- [ ] No other changes in version 3
 
 </details>
 
